@@ -11,7 +11,6 @@
 <body>
     @include('partials.header')
 
-
     <script type="text/javascript" src="js/header.js"></script>
 </body>
 </html>
