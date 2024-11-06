@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	just for update the main branch
+	
     <script type="text/javascript" src="js/header.js"></script>
 </body>
 </html>
