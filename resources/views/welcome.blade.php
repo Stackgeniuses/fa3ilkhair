@@ -9,8 +9,8 @@
     <title>fa3il Khair</title>
 </head>
 <body>
+    @include('partials.header')
 
-	
     <script type="text/javascript" src="js/header.js"></script>
 </body>
 </html>
