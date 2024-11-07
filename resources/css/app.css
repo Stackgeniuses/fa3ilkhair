@@ -99,3 +99,35 @@
 .animate-bounce400 {
     animation: bounce 1s infinite 0.4s;
 }
+
+
+/* Mobile Menu */
+#mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Initially hidden off-screen */
+    width: 70vw; /* Menu width */
+    height: 100vh; /* Full screen height */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+    transition: right 0.3s ease-out; /* Smooth transition */
+}
+
+/* Overlay for Mobile Menu */
+#menu-overlay {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 10;
+}
+
+/* Show the overlay when active */
+#menu-overlay.show {
+    display: block;
+}
+

@@ -16,7 +16,6 @@ export default {
         extend: {
             screens: {
                 phone: { max: "900px" },
-                desktop: { min: "1280px" },
             },
             fontFamily: {
                 inter: ["Inter", "sans-serif"],
